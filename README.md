@@ -1,30 +1,65 @@
- # Simple Portfolio Template
+# Devrick - Bootstrap Portfolio Template ➜ [Demo](https://furioustheme-devrick.netlify.app/)
 
-Yeh ek simple HTML + CSS portfolio template hai. Aap isay GitHub Pages par deploy kar sakte hain.
+[![Devrick](https://furioustheme.com/products/devrick.png)](https://furioustheme-devrick.netlify.app/)
 
-## Kaise use karein (steps)
+<!-- download -->
+## Download And installation
 
-1. Zip file download karein aur extract karein.
-2. Local system par folder khol kar `index.html` browser mein open kar ke check karein.
-3. GitHub par repo banayein (e.g., `my-portfolio`).
-4. Files upload karne ke 2 tareeqay:
-   - **Option A (Git - recommended):**
-     ```bash
-     git init
-     git add .
-     git commit -m "Initial commit"
-     git branch -M main
-     git remote add origin https://github.com/USERNAME/REPO.git
-     git push -u origin main
-     ```
-   - **Option B (GitHub web):** GitHub repo page par `Add file → Upload files` se sare files upload karein.
+Download this template from [Github](https://github.com/furioustheme/devrick/archive/refs/heads/main.zip)
 
-5. GitHub Pages enable karna:
-   - Repo settings → Pages → Source choose karein: Branch `main` aur folder `/(root)` select karen → Save.
-   - Kuch minutes mein aapka site `https://USERNAME.github.io/REPO/` par live ho jayega.
+<!-- installation -->
+### Basic Usages
 
-6. Agar aap custom domain chahte hain to `Settings → Pages → Custom domain` me domain add karein.
+After downloading the template, you can simply edit the HTML and CSS files from the `theme` folder. To preview the changes you make to the code, you can open the index.html file in your web browser.
 
----
+### Advanced Usage
 
-Agar aap chahain to main aapko `index.html` me aapka naam aur email set kar ke ready kar dunga — bas bata dein.
+For advanced usage, you have some prerequisites to install. Then you can run it on your localhost. You can view the package.json file to see which scripts are included.
+
+#### Install prerequisites (once for a machine)
+
+* **Node Installation:** [Install node js](https://nodejs.org/en/download/)
+* **Gulp Installation:** Install gulp globally from your terminal
+
+```
+npm install --global gulp-cli
+```
+
+Or visit the original [Gulp docs](https://gulpjs.com/docs/en/getting-started/quick-start)
+
+#### Local setup
+
+After successfully installing those dependencies, open this theme with any IDE [[VS Code](https://code.visualstudio.com/) recommended], and then open the internal terminal of IDM [vs code shortcut <code>ctrl/cmd+\`</code>]
+
+* Install dependencies
+
+```
+npm install
+```
+
+* Run locally
+
+```
+npm run dev
+```
+
+After that, it will open up a preview of the template in your default browser, watch for changes to source files, and live reload the browser when changes are saved.
+
+#### Production Build
+
+After finishing all the customization, you can create a production build by running this command.
+
+```
+npm run build
+```
+
+Now you get a `theme` folder that has all the changes you have made. you can use this folder as your main theme.
+
+<!-- licence -->
+## License
+
+Copyright (c) 2015 - Present, Designed & Developed by [Furioustheme](https://furioustheme.com)
+
+**Code License:** Released under the [MIT](https://github.com/furioustheme/devrick/blob/main/LICENSE) license.
+
+**Image license:** The images are only for demonstration purposes. They have their license, we don't have permission to share those images.
