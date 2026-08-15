@@ -1,3 +1,4 @@
+<!--
 # Devrick - Bootstrap Portfolio Template ➜ [Demo](https://furioustheme-devrick.netlify.app/)
 
 [![Devrick](https://furioustheme.com/products/devrick.png)](https://furioustheme-devrick.netlify.app/)
@@ -63,3 +64,4 @@ Copyright (c) 2015 - Present, Designed & Developed by [Furioustheme](https://fur
 **Code License:** Released under the [MIT](https://github.com/furioustheme/devrick/blob/main/LICENSE) license.
 
 **Image license:** The images are only for demonstration purposes. They have their license, we don't have permission to share those images.
+-->
